@@ -1,9 +1,9 @@
 <?php
-include_once 'app/views/header.php';
+include_once 'app/views/header.html';
 
 
-include('app/views/home.php');
+include('app/views/home.html');
 
 
 
-include_once 'app/views/footer.php';
+include_once 'app/views/footer.html';
