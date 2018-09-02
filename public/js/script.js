@@ -10,7 +10,7 @@ function gerarCartao(){
         success: function(res){
             if(res.success === true){
                 $('#frame-card').html(res.result);
-                
+                $('#frame-card').append("<div class='text-right'><button type='button' onclick='download()' class='btn btn-success cursorpointer'>Download</button></div>");
 
 
             }else{
