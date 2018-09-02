@@ -26,7 +26,7 @@ function gerarCartao(){
 }
 
 function download(){
-    html2canvas(document.querySelector("#cartao"), {width: 600, height: 600}).then(canvas => {
+    html2canvas(document.querySelector("#cartao"), {width: 545, height: 485}).then(canvas => {
         saveAs(canvas.toDataURL(), 'b-daycard.png');
     }); 
 }
