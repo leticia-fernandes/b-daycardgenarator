@@ -1,0 +1,116 @@
+.cursorpointer{
+    cursor: pointer;
+}
+
+.middle-fullscreen {
+    display:table-cell;
+    vertical-align:middle;
+}
+.full-screen {
+    display:table;
+  }
+
+.card{
+    padding: 20px;
+    border: 5px solid white;
+    border-bottom:0; 
+    width:545px;
+    height:500px;
+}
+
+.card h1{
+    font-family: 'Pacifico';
+    margin-bottom: 20px;
+    text-shadow: 1px 1px rgb(0, 0, 0);
+    ;
+}
+
+.card p{
+    font-family: 'Josefin Sans';
+    font-size: 1.25em;
+    text-shadow: 1px 1px rgb(0, 0, 0);
+}
+
+.woman1{
+    background-image: url("../img/woman1.png");
+    color:black;
+}
+
+.woman2{
+    background-image: url("../img/woman2.png");
+    color:purple;
+}
+
+.woman3{
+    background-image: url("../img/woman3.png");
+    color:white;
+}
+
+.man1{
+    background-image: url("../img/man1.png");
+    color:rgb(255, 251, 0);
+}
+
+.man2{
+    background-image: url("../img/man2.png");
+    color:black;
+}
+
+.man3{
+    background-image: url("../img/man3.png");
+    color:black;
+}
+
+.titulosite{
+    padding: 30px;
+    background-image: url("../img/banner.png");
+    color: rgb(0, 162, 255);
+    background-size: 100%;
+    width: 100%;
+    font-family: 'Gloria Hallelujah';
+    text-shadow: 2px 2px rgb(0, 0, 0);
+    margin-bottom: 30px;
+    border-radius: 3px;
+    border: 4px dashed rgba(0, 154, 243, 0.589); 
+    border-left: 0;
+    border-right: 0;   
+}
+
+.titulosite h1{
+    font-size: 4em;
+}
+
+.titulosite h1 span{
+    margin: 0;
+    font-size: 0.5em;
+}
+
+
+.corposite{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 3px;
+    border: 4px dashed rgba(0, 154, 243, 0.589);
+    border-left: 0;
+    border-right: 0;
+}
+
+@media only screen and (min-width: 768px) 
+{.corposite .col-md-6:first-child{
+    border-right: 4px dashed rgba(0, 154, 243, 0.589);
+}}
+
+.corposite h5{
+    font-family: 'Gloria Hallelujah';
+    color: rgb(0, 101, 160);
+}
+
+.ghostcard{
+    margin-top: 60px;
+    font-family: 'Gloria Hallelujah';
+    font-size: 2em;
+}
+
+.frame-card{
+    width: 100%;
+}
